@@ -1,7 +1,7 @@
 # Lyrics Display Project
 #### Video Demo:  <https://www.youtube.com/watch?v=f8fSq2kHuKU&ab_channel=aadamczykode>
 #### Description:
-The user is promted to input the name of an artist and the name of a song. The lyrics to the selected song are then displayed on an arduino display.
+The user is prompted to input the name of an artist and the name of a song. The lyrics to the selected song are then displayed on an arduino display.
 The LCD1602 module being used is very limiting. The size of the display is 16x2 and it only has 80 bytes of RAM.
 Because of this, characters are corrupted and the display starts acting up if a string longer than ~40 characters is sent to it all at once.
 I have chosen to use only one row in the display to gain more control. When using both rows, I would need to fill in the empty space left at the end of
